@@ -27,7 +27,7 @@ function createWindow(): void {
       x: 20,
       y: 20,
     },
-    icon: iconPath, // Define o ícone de acordo com o sistema operacional
+    icon: iconPath
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
