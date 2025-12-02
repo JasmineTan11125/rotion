@@ -14,7 +14,7 @@ function createWindow(): void {
       ? join(__dirname, '../../build/icon.ico')
       : process.platform === 'darwin'
         ? join(__dirname, '../../build/icon.icns')  
-        : join(__dirname, '../../build/icon.png') // Caminho para o ícone do Linux
+        : join(__dirname, '../../build/icon.png')
 
   const mainWindow = new BrowserWindow({
     width: 1120,
