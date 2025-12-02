@@ -11,9 +11,9 @@ import './store'
 function createWindow(): void {
   const iconPath =
     process.platform === 'win32'
-      ? join(__dirname, '../../build/icon.ico') // Caminho para o ícone do Windows
+      ? join(__dirname, '../../build/icon.ico')
       : process.platform === 'darwin'
-        ? join(__dirname, '../../build/icon.icns') // Caminho para o ícone do macOS
+        ? join(__dirname, '../../build/icon.icns')  
         : join(__dirname, '../../build/icon.png') // Caminho para o ícone do Linux
 
   const mainWindow = new BrowserWindow({
